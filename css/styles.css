@@ -165,11 +165,15 @@ ul {
 }
 
 .foot .location {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--background-white-color);
 }
 
 .foot .contact {
   text-decoration: none;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--lower-contact-color);
 }
 
@@ -306,6 +310,10 @@ main {
   margin-left: 30px;
 }
 
+.team .description {
+  padding: 30px 0;
+}
+
 .team .title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -319,7 +327,6 @@ main {
   display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 .team .subtitle {
@@ -334,7 +341,6 @@ main {
 
 .team .text {
   /* font-weight: 400; */
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19; /* 19px, identical to box height */
   text-align: center;
@@ -404,7 +410,7 @@ main {
 }
 
 .project .card .border {
-  padding-top: 20px;
+  padding: 20px 24px;
   border-right: 1px solid var(--card-border-color);
   border-bottom: 1px solid var(--card-border-color);
   border-left: 1px solid var(--card-border-color);
@@ -417,7 +423,7 @@ main {
 }
 
 .project .title {
-  margin: 0 24px 4px;
+  margin-bottom: 4px;
   /*font-weight: 700;*/
   font-size: 18px;
   line-height: 2; /* 36px, identical to box height, or 200% */
@@ -426,7 +432,7 @@ main {
 }
 
 .project .text {
-  margin: 0 24px 20px;
+  /* margin: 0 24px 20px; */
   /*font-weight: 400;*/
   font-size: 16px;
   line-height: 1.88; /* 30px, identical to box height, or 188% */
