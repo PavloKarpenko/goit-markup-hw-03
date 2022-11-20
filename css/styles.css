@@ -150,9 +150,10 @@ ul {
   color: inherit;
 }
 
-.foot .container {
+.foot {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--background-black-color);
 }
 
 .foot .adr {
@@ -345,10 +346,6 @@ main {
   line-height: 1.19; /* 19px, identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.foot {
-  background-color: var(--background-black-color);
 }
 
 .portfolio-title {
